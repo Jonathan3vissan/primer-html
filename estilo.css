@@ -1,25 +1,55 @@
-body{
-background-color: rgb(119, 144, 220);
-color:rgb(88, 43, 23) ;
-font-size: x-large;
-text-align: center;
-justify-items: center;
-
+body {
+    background: linear-gradient( rgb(67, 67, 247) , rgb(192, 253, 86));
+    background-attachment: fixed;
+    text-align: center;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif ;
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
+h2 {
+    margin:10%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
 
-h3{
-    color: chartreuse;
+h3 {
+    color: rgb(230, 12, 12);
 }
-p{
+
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
+}
+
+#mi_id1 {
+
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 15, 85);
+}
+
+
+.contendor{
+    display: flex;
+    align-items: center;
+}
+
+
+#logo {
+margin-right: 350px;
+}
+
+li{
+    margin: 3%;
+}
+nav{
+    margin-left: 0%;
+    display:flex ;
+}
+
+#entrada_en_calor{
+    margin-top: 10%;
 }

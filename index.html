@@ -13,39 +13,79 @@
 </head>
 
 <body>
-    
-    <h1>Hablemos de entrenamiento</h1>
-    <img src="/imagenes/silueta.jpg" width="75" height="150" alt="hombre entrenando">
-    <nav></nav>
-    <h2> Inicio </h2>
+    <div class="contendor">
 
-    <h3>Entranda en calor </h3>
-    <img src="/imagenes/entranda_en_calor.gif" width="175" height="100" alt="reaccion del cuerpo al entra en calor">
-    <p>es lo escencial previo al inicio de una sesion de entranmiento , nos predispone a una buena sesion de
-        entranmiento</p>
+        <img src="/imagenes/silueta.jpg" width="75" height="150" alt="hombre entrenando" id="logo">
+        <h1>Hablemos de entrenamiento</h1>
+    </div>
 
-    <h3>Ejercicios anaerobico post entrada </h3>
-    <img src="/imagenes/remos.gif" width="120" height="100" alt="">
-    <p>este segmento se lleva de fomra gradual en fomra ascendente sin hacer grandes subas de peso de forma abrupta</p>
-
-    <h3>Parte de enfoque dentro de la sesion de entranmiento anaerobica</h3>
-    <p>en esta seccion lo que hacemos es enfocar fuertemente sobre el grupo muscular que se planifica, ya sea ejerciciso
-        mono , bi o multiarticular (vea imagen 1 , 2 y video para 3)</p>
-
-    <img src="/imagenes/mono.gif" width="120" height="100" alt="imagen 1">
-    <img src="/imagenes/biarticular.gif" width="120" height="100" alt="imagen 2">
-    <video src="/imagenes/multi.mp4" width="120" height="120" controls></video>
-
-    <h3>Cierre de entranamiento anaerobico</h3>
-    <p>en la parte final, dependiendo de objetivos, generalmente se intenta estar cerca del fallo muscular </p>
-    <img src="/imagenes/fallo.avif" width="120" height="110" alt="imagen llegando al fallo muscular">
+    <h2> Breve descripcion </h2>
 
 
-    <p>si deseas recibir actulizaciones podes regsitrar tu email</p>
 
 
-    <input type="email" placeholder="ingresa tu email">
-    <button>enviar</button>
+
+    <nav>
+        <ul>
+            <li  id="li_1"><a href="#entrada_en_calor">Entrada en calor</a> </li>
+            <li  id="li_2"><a href="#ejercicios-anaerobico">Ejercicio anaerobico</a></li>
+            <li  id="li_3"><a href="#enfoque_entranmiento">Enfoque de entranamiento</a></li>
+            <li  id="li_4"><a href="#cierre">Cierre</a> </li>
+
+        </ul>
+    </nav>
+
+
+    <div id="entrada_en_calor">
+
+        <h3>Entranda en calor </h3>
+
+        <img src="/imagenes/entranda_en_calor.gif" width="175" height="100" alt="reaccion del cuerpo al entra en calor">
+        <p>es lo escencial previo al inicio de una sesion de entranmiento , nos predispone a una buena
+            sesion de
+            entranmiento</p>
+
+    </div>
+
+    <div id="ejercicios-anaerobico">
+
+
+        <h3>Ejercicios anaerobico post entrada </h3>
+        <img src="/imagenes/remos.gif" width="120" height="100" alt="">
+        <p>este segmento se lleva de fomra gradual en fomra ascendente sin hacer grandes subas de peso de
+            forma
+            abrupta</p>
+
+    </div>
+    <div id="enfoque_entranmiento">
+
+        <h3>Parte de enfoque dentro de la sesion de entranmiento anaerobica</h3>
+        <p>en esta seccion lo que hacemos es enfocar fuertemente sobre el grupo muscular que se planifica, ya
+            sea
+            ejerciciso
+            mono , bi o multiarticular (vea imagen 1 , 2 y video para 3)</p>
+
+        <img src="/imagenes/mono.gif" width="120" height="100" alt="imagen 1">
+        <img src="/imagenes/biarticular.gif" width="120" height="100" alt="imagen 2">
+        <video src="/imagenes/multi.mp4" width="120" height="120" controls></video>
+    </div>
+    <div id="cierre">
+
+
+        <h3>Cierre de entranamiento anaerobico</h3>
+        <p>en la parte final, dependiendo de objetivos, generalmente se intenta estar cerca del fallo muscular
+        </p>
+        <img src="/imagenes/fallo.avif" width="120" height="110" alt="imagen llegando al fallo muscular">
+
+    </div>
+
+    <p id="">si deseas recibir actulizaciones podes regsitrar tu email</p>
+
+    <form>
+        <label for="email">igresa email</label>
+        <input type="text" id="email" placeholder="ingresa tu email">
+        <button>enviar</button>
+    </form>
 
 </body>
 

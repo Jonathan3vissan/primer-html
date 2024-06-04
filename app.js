@@ -20,8 +20,10 @@ function autetificaion() {
 
     if ((!condicion_1) && (!condicion_2)) {
         console.log("verifque sus datos");
+
     } else {
         console.log("bienvenido", elemento_1);
+        
     }
 
 

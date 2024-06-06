@@ -1,0 +1,11 @@
+
+
+
+function recibir_informacion() {
+    
+    
+
+
+
+}
+
